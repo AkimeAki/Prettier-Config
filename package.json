@@ -1,0 +1,20 @@
+{
+	"name": "prettier-config",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"main": "./config/prettier.json",
+	"files": [
+		"config"
+	],
+	"engines": {
+		"node": "18.18.0",
+		"npm": "9.8.1"
+	},
+	"scripts": {
+		"format": "prettier --write './**/*.{json,js}'"
+	},
+	"devDependencies": {
+		"prettier": "^3.0.3"
+	}
+}
